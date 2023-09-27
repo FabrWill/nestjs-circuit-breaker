@@ -38,7 +38,7 @@ export default class MyService {
 this application uses the [NestJS Cache Manager](https://docs.nestjs.com/techniques/logger) by default. So your application need to configure this
 
 ## Parameters in Circuit Breaker
-| Parâmetro                               | Descrição                                                                                              |
+| Parameters                               | Description                                                                                              |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------|
 | `maxErrorsBeforeOpen`                   | Max errors until circuit breaker open and only use the fallback function                                      |
 | `errorExpirationTimeInMilliseconds`     | Expiration time that will be used to decrement the count erros, this exists to avoid singular erros to be counted    |
