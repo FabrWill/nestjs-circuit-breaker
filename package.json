@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "@nestjs/cache-manager": "^2.1.0",
+    "@nestjs/common": "^10.2.6",
+    "@nestjs/swagger": "^7.1.11",
+    "cache-manager": "^5.2.3",
+    "cookie-parser": "^1.4.6"
+  },
+  "name": "nestjs-circuit-breaker",
+  "version": "1.0.0",
+  "description": "A implementation of circuit breaker pattern for simply purporses of resilience",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@nestjs/testing": "^10.2.6",
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabrWill/nestjs-circuit-breaker.git"
+  },
+  "keywords": [
+    "nestjs",
+    "circuit-breaker",
+    "circuit",
+    "breaker",
+    "javascript",
+    "typescript"
+  ],
+  "author": "William Fabre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabrWill/nestjs-circuit-breaker/issues"
+  },
+  "homepage": "https://github.com/FabrWill/nestjs-circuit-breaker#readme"
+}
