@@ -2,9 +2,7 @@
   "dependencies": {
     "@nestjs/cache-manager": "^2.1.0",
     "@nestjs/common": "^10.2.6",
-    "@nestjs/swagger": "^7.1.11",
-    "cache-manager": "^5.2.3",
-    "cookie-parser": "^1.4.6"
+    "cache-manager": "^5.2.3"
   },
   "name": "nestjs-circuit-breaker",
   "version": "1.0.0",
