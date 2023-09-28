@@ -5,7 +5,7 @@
     "cache-manager": "^5.2.3"
   },
   "name": "nestjs-circuit-breaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A implementation of circuit breaker pattern for simply purporses of resilience",
   "main": "dist/index.js",
   "devDependencies": {
