@@ -139,6 +139,6 @@ export class CircuitBreakerState {
       return result;
     }
 
-    return await this.options.fallbackFunction.apply(target, ...args);
+    return await this.options.fallbackFunction.apply(target, args);
   }
 }
